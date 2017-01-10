@@ -19,6 +19,7 @@
 		A17CA4DB1E2395C4001BF82B /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA4DA1E2395C4001BF82B /* Factory.swift */; };
 		A17CA4E71E239B1C001BF82B /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA4E61E239B1C001BF82B /* AbstractFactory.swift */; };
 		A17CA4EB1E247DAB001BF82B /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA4EA1E247DAB001BF82B /* Builder.swift */; };
+		A17CA4EE1E24B322001BF82B /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA4ED1E24B322001BF82B /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		A17CA4DA1E2395C4001BF82B /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		A17CA4E61E239B1C001BF82B /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		A17CA4EA1E247DAB001BF82B /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		A17CA4ED1E24B322001BF82B /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +112,11 @@
 		A17CA48F1E238D8B001BF82B /* iOSDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				A17CA4E81E247D8B001BF82B /* 建造者模式 */,
 				A17CA4C31E238DEC001BF82B /* 简单工厂模式 */,
 				A17CA4C41E238DEC001BF82B /* 工厂方法模式 */,
 				A17CA4C51E238DEC001BF82B /* 抽象工厂模式 */,
+				A17CA4E81E247D8B001BF82B /* 建造者模式 */,
+				A17CA4EC1E24B313001BF82B /* 适配器模式 */,
 				A17CA4931E238D8B001BF82B /* AppDelegate.h */,
 				A17CA4941E238D8B001BF82B /* AppDelegate.m */,
 				A17CA4961E238D8B001BF82B /* ViewController.h */,
@@ -184,6 +187,14 @@
 				A17CA4EA1E247DAB001BF82B /* Builder.swift */,
 			);
 			path = "建造者模式";
+			sourceTree = "<group>";
+		};
+		A17CA4EC1E24B313001BF82B /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A17CA4ED1E24B322001BF82B /* Adapter.swift */,
+			);
+			path = "适配器模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17CA4D01E2390CD001BF82B /* SimpleFactory.swift in Sources */,
+				A17CA4EE1E24B322001BF82B /* Adapter.swift in Sources */,
 				A17CA4981E238D8B001BF82B /* ViewController.m in Sources */,
 				A17CA4EB1E247DAB001BF82B /* Builder.swift in Sources */,
 				A17CA4DB1E2395C4001BF82B /* Factory.swift in Sources */,
@@ -576,6 +588,7 @@
 				A17CA4BC1E238D8C001BF82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A17CA4BD1E238D8C001BF82B /* Build configuration list for PBXNativeTarget "iOSDesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +597,7 @@
 				A17CA4BF1E238D8C001BF82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A17CA4C01E238D8C001BF82B /* Build configuration list for PBXNativeTarget "iOSDesignPatternsUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +606,7 @@
 				A17CA4C21E238D8C001BF82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

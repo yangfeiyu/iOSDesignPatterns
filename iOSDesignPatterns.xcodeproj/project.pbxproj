@@ -29,6 +29,7 @@
 		A17CA5031E25D31D001BF82B /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA5021E25D31D001BF82B /* Command.swift */; };
 		A17CA5061E25DB6D001BF82B /* Explain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA5051E25DB6D001BF82B /* Explain.swift */; };
 		A17CA5091E25DD95001BF82B /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA5081E25DD95001BF82B /* Iterator.swift */; };
+		A17CA50C1E25E42B001BF82B /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CA50B1E25E42B001BF82B /* Mediator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		A17CA5021E25D31D001BF82B /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		A17CA5051E25DB6D001BF82B /* Explain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explain.swift; sourceTree = "<group>"; };
 		A17CA5081E25DD95001BF82B /* Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		A17CA50B1E25E42B001BF82B /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +302,7 @@
 		A17CA50A1E25E178001BF82B /* 中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A17CA50B1E25E42B001BF82B /* Mediator.swift */,
 			);
 			path = "中介者模式";
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				A17CA4DB1E2395C4001BF82B /* Factory.swift in Sources */,
 				A17CA4F11E24BB1B001BF82B /* Bridge.swift in Sources */,
 				A17CA4951E238D8B001BF82B /* AppDelegate.m in Sources */,
+				A17CA50C1E25E42B001BF82B /* Mediator.swift in Sources */,
 				A17CA4E71E239B1C001BF82B /* AbstractFactory.swift in Sources */,
 				A17CA4921E238D8B001BF82B /* main.m in Sources */,
 				A17CA5001E25D195001BF82B /* Responsibility.swift in Sources */,
